@@ -2,4 +2,10 @@ version: "1"
 rules:
   - base: main
     upstream: hugegraph/action_test
-    mergeMethod: hardreset
+    mergeMethod: rebase
+    assignees:
+      - imbajin
+    reviewers:
+      - imbajin
+    conflictReviewers:
+      - imbajin
