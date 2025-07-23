@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v2.0
         with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
           owner: hugegraph
           repo: hugegraph-ai
-          base: action_test
-          head: main
+          base: main
+          head: action_test
           merge_method: rebase
