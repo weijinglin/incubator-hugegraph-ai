@@ -14,7 +14,7 @@ jobs:
       - uses: tgymnich/fork-sync@v2.0
         with:
           owner: hugegraph
-          repo: incubator-hugegraph-ai
+          repo: hugegraph-ai
           base: main
           head: action_test
           merge_method: rebase
