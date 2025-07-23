@@ -15,6 +15,6 @@ jobs:
         with:
           owner: hugegraph
           repo: hugegraph-ai
-          base: main
-          head: action_test
+          base: action_test
+          head: main
           merge_method: rebase
